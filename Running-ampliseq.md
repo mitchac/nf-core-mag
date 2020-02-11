@@ -23,7 +23,10 @@ sudo usermod -aG docker ubuntu
 ```
 Exit
 ```
-Running ampliseq
+
+*Edit analysis pipeline config files*
+
+Configure required system variables for analysis pipeline
 
 ```
 export TMPDIR=/data/tmp
@@ -31,6 +34,9 @@ export NXF_TEMP=/data/tmp
 export NXF_WORK=/data/work
 export PATH=/home/ubuntu:$PATH
 ```
+
+Running analysis pipeline
+
 ```
 nextflow run main.nf \
     -profile conda \
