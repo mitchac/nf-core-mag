@@ -12,7 +12,7 @@ https://github.com/mitchac/ansible-nectar
 
 ## Step 3
 
-[Getting-data-from-B2.markdown](Getting-data-from-B2.markdown)
+[Getting-data-from-B2.md](Getting-data-from-B2.md)
 
 ## Step 4
 
