@@ -8,12 +8,12 @@ https://github.com/mitchac/ansible-nectar
 
 ## Step 2
 
-[Installing-nextflow.md](Installing-nextflow.md)
+[Installing-software.md](Installing-software.md)
 
 ## Step 3
 
-[Getting-data-from-B2.md](Getting-data-from-B2.md)
+[Getting-data.md](Getting-data.md)
 
 ## Step 4
 
-[Running-ampliseq.md](Running-ampliseq.md)
+[Running-analysis.md](Running-analysis.md)
