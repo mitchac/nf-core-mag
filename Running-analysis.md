@@ -5,9 +5,6 @@ sudo apt install unzip
 Install ampliseq
 ```
 wget https://github.com/nf-core/ampliseq/archive/master.zip
-```
-Unzip documents
-```
 mkdir -p ~/my-pipelines/nf-core/
 unzip master.zip -d ~/my-pipelines/nf-core/
 ```
