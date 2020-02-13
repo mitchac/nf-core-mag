@@ -1,11 +1,13 @@
-### Install ampliseq workflow
+#### Install ampliseq workflow
 ```
 wget https://github.com/nf-core/ampliseq/archive/master.zip
 mkdir -p ~/my-pipelines/nf-core/
 unzip master.zip -d ~/my-pipelines/nf-core/
 ```
 
-Edit config files for pipeline - NB not sure if these settings are required. Suggest trying to download and run the pipeline without these modifications and delete this section if it runs fine. 
+#### Edit config files for pipeline
+
+NB not sure if these settings are required. Suggest trying to download and run the pipeline without these modifications and delete this section if it runs fine. 
 
 in file nextflow.config modify..
 
@@ -25,7 +27,7 @@ in file conf/base.config modify..
   }
 
 ```
-Configure required system variables for analysis pipeline
+#### Configure required system variables for analysis pipeline
 
 ```
 export TMPDIR=/data/tmp
@@ -33,7 +35,7 @@ export NXF_TEMP=/data/tmp
 export NXF_WORK=/data/work
 ```
 
-Running analysis pipeline
+#### Run analysis pipeline
 
 ```
 nextflow run main.nf \
@@ -47,7 +49,7 @@ nextflow run main.nf \
 Expected outcome: runs successfully with single sample (AN77)from data set. Retest with multiple samples. 
 
 
-- Running analysis pipeline with pre-existing classfier
+#### Running analysis pipeline with pre-existing classfier
 
 NB gives faster run times but need to ensure you use a compatible classifier.  
 
