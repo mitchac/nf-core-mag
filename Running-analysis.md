@@ -57,9 +57,8 @@ nextflow run main.nf \
     --metadata "/path/to/file" \
     --reference_database Silva_132_release.zip
 ```
-Expected outcome: runs successfully with single sample (AN77)from Ashley Qiime workshop notes.  
-
-```
+Expected outcome: runs successfully with single sample (AN77)from data set. Retest with multiple samples. 
+ 
 
 Running analysis pipeline with pre-existing classfier
 
