@@ -20,7 +20,7 @@ Exit
 
 Edit config files for pipeline - NB not sure if these settings are required. Suggest trying to download and run the pipeline without these modifications and delete this section if it runs fine. 
 
-in file nextflow.config
+in file nextflow.config modify..
 
 ```
 docker.temp = 'auto'
@@ -28,7 +28,7 @@ docker.temp = 'auto'
       JOBLIB_TEMP_FOLDER="/data/tmp"
     }
 ```
-in file base.config
+in file conf/base.config modify..
 
 ```
   withName: make_SILVA_132_16S_classifier {
