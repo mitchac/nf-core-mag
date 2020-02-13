@@ -58,7 +58,7 @@ nextflow run main.nf \
     --reference_database Silva_132_release.zip
 ```
 Expected outcome: runs successfully with single sample (AN77)from data set. Retest with multiple samples. 
- 
+
 
 Running analysis pipeline with pre-existing classfier
 
@@ -72,7 +72,7 @@ nextflow run main.nf \
     --RV_primer CRRCACGAGCTGACGAC \ 
     --metadata metadata.tsv 
     --reference_database Silva_132_release.zip \
-    --classifier "AGGATTAGATACCCTGGTA-CRRCACGAGCTGACGAC-99-classifier.qza"  --trunclenf 212 \
+    --classifier "AGGATTAGATACCCTGGTA-CRRCACGAGCTGACGAC-99-classifier.qza" \ --trunclenf 212 \
     --trunclenr 175
 ```
 Expected outcome: runs successfully with subset of full data set (ie samples 10,22,27,40,45,48,58,66). errors on full 23 samples including controls. Outcome seems to be sensitive to trunclenf/r parameters. Need to get input from someone with more knowledge of Qiime and illumina sequencing to ensure these settings are appropriate. 
