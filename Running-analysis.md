@@ -1,18 +1,8 @@
-Install unzip
-```
-sudo apt install unzip
-```
-Install ampliseq
+Install ampliseq workflow
 ```
 wget https://github.com/nf-core/ampliseq/archive/master.zip
 mkdir -p ~/my-pipelines/nf-core/
 unzip master.zip -d ~/my-pipelines/nf-core/
-```
-Install docker
-```
-sudo apt install docker.io
-sudo usermod -aG docker ubuntu
-Exit
 ```
 
 Edit config files for pipeline - NB not sure if these settings are required. Suggest trying to download and run the pipeline without these modifications and delete this section if it runs fine. 
