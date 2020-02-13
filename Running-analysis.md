@@ -9,18 +9,12 @@ wget https://github.com/nf-core/ampliseq/archive/master.zip
 Unzip documents
 ```
 mkdir -p ~/my-pipelines/nf-core/
-```
-```
 unzip master.zip -d ~/my-pipelines/nf-core/
 ```
 Install docker
 ```
 sudo apt install docker.io
-```
-```
 sudo usermod -aG docker ubuntu
-```
-```
 Exit
 ```
 
