@@ -6,7 +6,7 @@ If you don't have java, installation is needed
 ```
 sudo apt install default-jre
 ```
-Get nextflow in bash to start
+Install nextflow
 ```
 curl -s https://get.nextflow.io | bash
 ```
