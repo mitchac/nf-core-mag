@@ -1,4 +1,4 @@
-Install ampliseq workflow
+### Install ampliseq workflow
 ```
 wget https://github.com/nf-core/ampliseq/archive/master.zip
 mkdir -p ~/my-pipelines/nf-core/
