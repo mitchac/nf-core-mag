@@ -10,7 +10,7 @@ https://github.com/mitchac/ansible-nectar
 
 Configure cloud computer per the instructions and code in the following repo
 
-https://github.com/mitchac/ansible-nectar
+https://github.com/mitchac/ansible-nextflow-cloud
 
 ### Step 3
 
