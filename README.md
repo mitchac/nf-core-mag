@@ -14,12 +14,8 @@ https://github.com/mitchac/ansible-nextflow-cloud
 
 ### Step 3
 
-[Installing-software.md](Installing-software.md)
-
-### Step 4
-
 [Getting-data.md](Getting-data.md)
 
-### Step 5
+### Step 4
 
 [Running-analysis.md](Running-analysis.md)
