@@ -33,6 +33,7 @@ in file conf/base.config modify..
 export TMPDIR=/data/tmp
 export NXF_TEMP=/data/tmp
 export NXF_WORK=/data/work
+export PATH=/usr/local/Miniconda3-4.7.12.1-Linux-x86_64/condabin:$PATH
 ```
 
 #### Run analysis pipeline
