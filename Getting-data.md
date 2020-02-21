@@ -1,3 +1,9 @@
+Change to the drive where the drive is attached..
+
+```
+cd /data 
+```
+
 Configuration of B2 cloud storage
 
 ```
@@ -16,9 +22,13 @@ Select following options
 8. Quit: q
 
 
-Copy files from source to destination
+Copy files from source to destination using the following pattern..
+rclone copy remote:$remotename/path/to/sourcefile path/to/filedestination
 
 ```
-rclone copy remote:$remotename/path/to/sourcefile path/to/filedestination
+rclone copy b2:emri-files/projects/nextflow-test/metadata.tsv .
+rclone copy b2:emri-files/projects/nextflow-test/data data
+rclone copy b2:emri-files/projects/nextflow-test/inputs .
+
 ```
 Expected outcome: Files required for the ampliseq analysis present on the cloud computer
