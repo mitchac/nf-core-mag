@@ -14,8 +14,12 @@ https://github.com/mitchac/ansible-nextflow-cloud
 
 ### Step 3
 
-[Getting-data.md](Getting-data.md)
+[Getting data](Getting-data.md)
 
 ### Step 4
 
-[Running-analysis.md](Running-analysis.md)
+[Running analysis](Running-analysis.md)
+
+### Step 5
+
+[Terminate cloud computer](Terminate-cloud-computer.md)
