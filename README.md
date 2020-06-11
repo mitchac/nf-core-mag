@@ -1,4 +1,4 @@
-## Goal: Run DNA metabarcoding data analysis in a cloud computer
+## Goal: Run Metagenome data analysis in a cloud computer. 
 
 ### Step 1
 
@@ -14,12 +14,8 @@ https://github.com/mitchac/ansible-nextflow-cloud
 
 ### Step 3
 
-[Getting data](Getting-data.md)
-
-### Step 4
-
 [Running analysis](Running-analysis.md)
 
-### Step 5
+### Step 4
 
 [Terminate cloud computer](Terminate-cloud-computer.md)
