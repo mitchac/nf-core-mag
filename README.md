@@ -6,7 +6,7 @@ Run Metagenome data analysis in a cloud computer.
 
 Create cloud computer on Melbourne Research Cloud per the instructions and code in the following repo
 
-https://github.com/mitchac/ansible-nectar/tree/dc7e5a6cf2fa2e297f3f6a123658416f04c04184
+https://github.com/mitchac/ansible-nectar/tree/5b0a524683b6f7400bc3faac6aa6455935b9cdbf
 
 ### Step 2
 
