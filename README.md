@@ -1,10 +1,12 @@
-## Goal: Run Metagenome data analysis in a cloud computer. 
+### Goal 
+
+Run Metagenome data analysis in a cloud computer. 
 
 ### Step 1
 
 Create cloud computer on Melbourne Research Cloud per the instructions and code in the following repo
 
-https://github.com/mitchac/ansible-nectar
+https://github.com/mitchac/ansible-nectar/commit/dc7e5a6cf2fa2e297f3f6a123658416f04c04184
 
 ### Step 2
 
